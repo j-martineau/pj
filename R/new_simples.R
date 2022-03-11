@@ -18,7 +18,7 @@
 #' @param x numeric vector defining the horizontal location of each point.
 #' @param y numeric vector defining the vertical location of each point.
 #' @param order character scalar \code{'x'}, \code{'y'}, or \code{'i'}
-#'   indicating, repectively, ordering x-y pairs on the value of \code{x},
+#'   indicating, respectively, ordering x-y pairs on the value of \code{x},
 #'   ordering x-y pairs on the value of \code{y}, and identity (leaving the
 #'   order of x-y pairs unchanged).
 #' @return \code{pj} with the addition of the specified point shape.
