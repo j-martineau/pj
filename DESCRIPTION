@@ -1,0 +1,12 @@
+Package: pj
+Title: Element-wise plots by JAM
+Version: 0.0.0.9000
+Authors@R:
+    person("Joseph", "Martineau", , "jmartineau@ets.org", role = c("aut", "cre"))
+Description: Element-wise plots with hierarchical relationships in the forms Plot > (Background > Region) > Shape > (Look or Mod). That is, a plot is the parent of a background. The background is the parent of a region. The background or a region is the parent of a shape. A shape is the parent of a look (the visual characteristics to apply to a shape) or of a mod (a dilation, reflection, rotation, or translation).
+    license
+Encoding: UTF-8
+Imports:
+    uj, tibble, tidyverse
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
